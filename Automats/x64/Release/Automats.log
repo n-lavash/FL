@@ -1,0 +1,8 @@
+﻿  Automats.cpp
+bprinter.lib(table_printer.obj) : error LNK2038: обнаружено несоответствие для "_ITERATOR_DEBUG_LEVEL": значение "2" не соответствует значению "0" в Automats.obj
+bprinter.lib(table_printer.obj) : error LNK2038: обнаружено несоответствие для "RuntimeLibrary": значение "MDd_DynamicDebug" не соответствует значению "MD_DynamicRelease" в Automats.obj
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRTD" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+bprinter.lib(table_printer.obj) : error LNK2001: неразрешенный внешний символ __imp__invalid_parameter.
+bprinter.lib(table_printer.obj) : error LNK2001: неразрешенный внешний символ __imp__calloc_dbg.
+bprinter.lib(table_printer.obj) : error LNK2001: неразрешенный внешний символ __imp__CrtDbgReport.
+C:\Users\sorok\source\repos\Automats\x64\Release\Automats.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
